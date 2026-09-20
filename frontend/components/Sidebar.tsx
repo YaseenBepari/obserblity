@@ -141,7 +141,11 @@ export default function Sidebar() {
       style={{ width: "var(--sidebar-width)", borderRight: "1px solid var(--glass-border)" }}
     >
       {/* ─── Logo ──────────────────────────────────────────────────────── */}
-      <div className="px-5 py-5 border-b" style={{ borderColor: "var(--border-primary)" }}>
+      <div 
+        className="px-5 py-5 border-b cursor-pointer hover:opacity-80 transition-opacity" 
+        style={{ borderColor: "var(--border-primary)" }}
+        onClick={() => router.push("/dashboard")}
+      >
         <div className="flex items-center gap-3">
           <div
             className="w-9 h-9 rounded-xl flex items-center justify-center font-bold text-sm select-none"

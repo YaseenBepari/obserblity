@@ -1,5 +1,5 @@
-import { redirect } from "next/navigation";
+import PlatformOverview from "@/components/PlatformOverview";
 
 export default function DashboardPage() {
-  redirect("/dashboard/netra");
+  return <PlatformOverview />;
 }

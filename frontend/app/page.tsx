@@ -20,7 +20,7 @@ export default function LoginPage() {
     await new Promise((r) => setTimeout(r, 800));
 
     if (email.endsWith("@baxter.com") && password.length >= 4) {
-      router.push("/dashboard/netra");
+      router.push("/dashboard");
     } else {
       setError("Invalid credentials. Use a @baxter.com email.");
       setLoading(false);
