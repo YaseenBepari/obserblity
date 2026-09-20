@@ -125,7 +125,7 @@ export default function AlertsPanel() {
           }}
         >
           <div className="flex items-center justify-between">
-            <p className="text-xs font-medium" style={{ color: "#fca5a5" }}>
+            <p className="text-xs font-medium" style={{ color: "var(--status-down)" }}>
               Critical
             </p>
             {counts.critical > 0 && (
@@ -133,10 +133,10 @@ export default function AlertsPanel() {
             )}
           </div>
           <div className="mt-2 flex items-baseline gap-2">
-            <span className="text-2xl font-bold font-mono" style={{ color: "#f87171" }}>
+            <span className="text-2xl font-bold font-mono" style={{ color: "var(--status-down)" }}>
               {counts.critical}
             </span>
-            <span className="text-[10px]" style={{ color: "#fca5a5" }}>
+            <span className="text-[10px]" style={{ color: "var(--status-down)" }}>
               immediate attention
             </span>
           </div>
@@ -149,11 +149,11 @@ export default function AlertsPanel() {
             borderColor: "rgba(239, 68, 68, 0.25)",
           }}
         >
-          <p className="text-xs font-medium" style={{ color: "#fba7a7" }}>
+          <p className="text-xs font-medium" style={{ color: "var(--status-down)" }}>
             Errors
           </p>
           <div className="mt-2 flex items-baseline gap-2">
-            <span className="text-2xl font-bold font-mono" style={{ color: "#fb7185" }}>
+            <span className="text-2xl font-bold font-mono" style={{ color: "var(--status-down)" }}>
               {counts.error}
             </span>
             <span className="text-[10px]" style={{ color: "var(--text-muted)" }}>
@@ -169,11 +169,11 @@ export default function AlertsPanel() {
             borderColor: "rgba(245, 158, 11, 0.25)",
           }}
         >
-          <p className="text-xs font-medium" style={{ color: "#fcd34d" }}>
+          <p className="text-xs font-medium" style={{ color: "var(--status-degraded)" }}>
             Warnings
           </p>
           <div className="mt-2 flex items-baseline gap-2">
-            <span className="text-2xl font-bold font-mono" style={{ color: "#fbbf24" }}>
+            <span className="text-2xl font-bold font-mono" style={{ color: "var(--status-degraded)" }}>
               {counts.warning}
             </span>
             <span className="text-[10px]" style={{ color: "var(--text-muted)" }}>
