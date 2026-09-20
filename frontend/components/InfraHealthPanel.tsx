@@ -144,20 +144,20 @@ export default function InfraHealthPanel() {
       >
         <div className="flex flex-wrap items-center gap-2">
           {/* Datasource Pill */}
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-black/40 border border-slate-800 text-[11px] font-mono">
+          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-[11px] font-mono">
             <span className="text-orange-400">🔥</span>
             <span className="text-slate-400">datasource:</span>
             <span className="text-slate-200 font-semibold">Prometheus</span>
           </div>
 
           {/* Job Pill */}
-          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-black/40 border border-slate-800 text-[11px] font-mono">
+          <div className="flex items-center gap-1.5 px-2.5 py-1 rounded bg-slate-900 border border-slate-800 text-[11px] font-mono">
             <span className="text-slate-400">job:</span>
             <span className="text-slate-200 font-semibold">node</span>
           </div>
 
           {/* Host Selector Dropdown */}
-          <div className="flex items-center gap-2 px-2.5 py-1 rounded bg-black/50 border border-indigo-500/40 text-xs">
+          <div className="flex items-center gap-2 px-2.5 py-1 rounded bg-slate-900 border border-indigo-500/40 text-xs">
             <label htmlFor="host-select" className="text-indigo-300 font-medium font-mono text-[11px]">
               Host:
             </label>
@@ -179,7 +179,7 @@ export default function InfraHealthPanel() {
           </div>
 
           {/* Port Pill */}
-          <div className="flex items-center gap-1.5 px-2 py-1 rounded bg-black/40 border border-slate-800 text-[11px] font-mono text-slate-400">
+          <div className="flex items-center gap-1.5 px-2 py-1 rounded bg-slate-900 border border-slate-800 text-[11px] font-mono text-slate-400">
             <span>port:</span>
             <span className="text-slate-300 font-semibold">9100</span>
           </div>

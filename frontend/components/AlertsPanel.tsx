@@ -120,7 +120,7 @@ export default function AlertsPanel() {
         <div
           className="p-4 rounded-xl border relative overflow-hidden"
           style={{
-            background: "linear-gradient(135deg, rgba(220, 38, 38, 0.1), rgba(17, 24, 39, 0.8))",
+            background: "linear-gradient(135deg, rgba(220, 38, 38, 0.1), var(--bg-card))",
             borderColor: "rgba(220, 38, 38, 0.3)",
           }}
         >
@@ -145,7 +145,7 @@ export default function AlertsPanel() {
         <div
           className="p-4 rounded-xl border relative overflow-hidden"
           style={{
-            background: "linear-gradient(135deg, rgba(239, 68, 68, 0.08), rgba(17, 24, 39, 0.8))",
+            background: "linear-gradient(135deg, rgba(239, 68, 68, 0.08), var(--bg-card))",
             borderColor: "rgba(239, 68, 68, 0.25)",
           }}
         >
@@ -165,7 +165,7 @@ export default function AlertsPanel() {
         <div
           className="p-4 rounded-xl border relative overflow-hidden"
           style={{
-            background: "linear-gradient(135deg, rgba(245, 158, 11, 0.08), rgba(17, 24, 39, 0.8))",
+            background: "linear-gradient(135deg, rgba(245, 158, 11, 0.08), var(--bg-card))",
             borderColor: "rgba(245, 158, 11, 0.25)",
           }}
         >
