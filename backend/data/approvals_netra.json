@@ -1,0 +1,32 @@
+{
+  "yaseen@baxter.com": {
+    "status": "approved",
+    "updated_at": "2026-09-18T10:00:00Z",
+    "updated_by": "admin@baxter.com"
+  },
+  "praveen@baxter.com": {
+    "status": "approved",
+    "updated_at": "2026-09-18T10:00:00Z",
+    "updated_by": "admin@baxter.com"
+  },
+  "anjali@baxter.com": {
+    "status": "approved",
+    "updated_at": "2026-09-19T10:14:27.482531+00:00",
+    "updated_by": "admin@baxter.com"
+  },
+  "rahul@baxter.com": {
+    "status": "approved",
+    "updated_at": "2026-09-18T10:00:00Z",
+    "updated_by": "admin@baxter.com"
+  },
+  "divya@baxter.com": {
+    "status": "pending",
+    "updated_at": "2026-09-19T09:15:00Z",
+    "updated_by": "system"
+  },
+  "suresh@baxter.com": {
+    "status": "rejected",
+    "updated_at": "2026-09-19T07:45:00Z",
+    "updated_by": "admin@baxter.com"
+  }
+}
